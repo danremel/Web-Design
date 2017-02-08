@@ -1,0 +1,66 @@
+body {
+ 
+    background: #eded2f; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #3f3f0d 0%, #474919 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#565611), color-stop(100%,#3f1f49)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #4b4eb6 0%,#282649 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #4d3eed 0%,#292549 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #4241ed 0%,#161749 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #4241ed 0%,#474919 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eded2f', endColorstr='#474919',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font-family: 'Raleway', sans-serif; font-weight: 600; 
+}
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left; padding-left: 288px; text-align: center;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+#current a {
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgba(241, 236, 255, 0.99);
+    font-family:'Raleway', sans-serif;
+}
+
+p {
+    color: rgba(241, 236, 255, 0.99);
+    font-family:'Raleway', sans-serif;
+}
+
+div {
+    text-align: center;
+    padding: 500px;
+    padding-top: 50px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
